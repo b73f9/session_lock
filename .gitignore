@@ -1,0 +1,15 @@
+#Clean existing repo:
+#git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch *.exe *.dll *.o *.in *.layout *.out *.save *.depend *.cpp.save *.user *.zip *.rar'
+obj/
+bin/
+*.o
+*.in
+*.out
+*.zip
+*.rar
+*.exe
+*.dll
+*.save
+*.user
+*.layout
+*.depend
